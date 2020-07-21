@@ -1,0 +1,69 @@
+.teamsection {
+  margin: 20px;
+}
+.teamtitle {
+  margin: 50px auto;
+  width: fit-content;
+  text-transform: capitalize;
+}
+.teamboxs {
+  display: flex;
+  justify-content: space-between;
+}
+.teambox {
+  width: 30%;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.teambox:hover .imgitem {
+  opacity: 1;
+  visibility: visible;
+}
+.teambox:hover h5 {
+  color: #fff;
+}
+
+.imglay {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.teamlay img {
+  width: 100%;
+}
+.imgitem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 5px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+
+.imgitem i {
+  display: block;
+  width: 25px;
+  margin: 3px;
+  padding: 2px;
+  text-align: center;
+  margin-left: auto;
+  background-color: skyblue;
+  color: #fff;
+  font-size: 20px;
+  transition: opacity 0.5s;
+  border-radius: 2px;
+}
+.teamlay h5 {
+  transition: color 1.7s;
+}
+.teamlay h5,
+.teamlay p {
+  text-align: center;
+  font-size: 22px;
+}

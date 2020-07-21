@@ -1,0 +1,9 @@
+.offersection {
+  margin: 50px auto;
+}
+.offertitle {
+  width: fit-content;
+  text-align: center;
+  margin: 20px auto;
+  text-transform: capitalize;
+}

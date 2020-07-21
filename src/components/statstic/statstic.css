@@ -1,0 +1,25 @@
+.statsticsection {
+  background-image: url("/images/background/background2.webp");
+  height: 250px;
+  background-size: cover;
+  position: relative;
+}
+.statoverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.boxs {
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.statbox h4,
+.statbox p {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  margin: 3px 0;
+}

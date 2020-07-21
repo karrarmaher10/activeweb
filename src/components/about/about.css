@@ -1,0 +1,51 @@
+.padd {
+  padding: 120px 0;
+}
+.abouttitle {
+  margin: auto;
+  width: fit-content;
+}
+.boxsection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #8e8e8e;
+}
+.icon {
+  display: block;
+  text-align: center;
+  color: rgb(49, 191, 235);
+  font-size: 25px;
+  margin: 10px auto 10px auto;
+}
+.title {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  transition: color 0.8s;
+}
+.box:hover .title {
+  color: aliceblue;
+}
+.box p {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.box a {
+  text-decoration: none;
+  color: rgb(49, 191, 235);
+  text-transform: capitalize;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  margin: 10px;
+}

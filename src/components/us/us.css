@@ -1,0 +1,51 @@
+.ussection {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.leftdiv,
+.rightdiv {
+  width: 50%;
+}
+.leftdiv h3 {
+  width: fit-content;
+  text-transform: capitalize;
+}
+.leftdiv p {
+  line-height: 20px;
+  font-size: 15px;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+.photo img {
+  width: 100%;
+}
+.listleft {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.listleft li i {
+  border: 1px solid lawngreen;
+  border-radius: 50%;
+  color: lawngreen;
+  padding: 2px;
+  margin: 2px;
+}
+.listright {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.listright div {
+  width: 15px;
+  margin: 2px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #999;
+}
+.listright div:hover {
+  transition-duration: 0.8s;
+  background-color: royalblue;
+}
